@@ -12,4 +12,4 @@ jobs:
           name: Build Docker image
           command: |
           
-            docker build -t . --progress=plain
+            docker build -t app . --progress=plain
